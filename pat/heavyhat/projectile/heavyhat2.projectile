@@ -1,0 +1,21 @@
+{
+	"projectileName" : "pat_heavyhat2",
+	"image" : "/pat/heavyhat/hat/head2.png",
+	"renderLayer" : "Player+100",
+	"orientationLocked" : true,
+	"piercing" : true,
+	"speed" : 0,
+	"bounces" : -1,
+	"timeToLive" : 10,
+	"damageType" : "NoDamage",
+  "onlyHitTerrain" : true,
+	
+	"movementSettings" : {
+		"gravityMultiplier" : 50,
+		"speedLimit" : null,
+		"collisionEnabled" : true,
+		"stickyCollision" : true,
+		"stickyForce" : 100,
+		"collisionPoly" : [ [0.5, 1], [0.5, 1.25], [-0.5, 1.25], [-0.5, 1] ]
+	}
+}

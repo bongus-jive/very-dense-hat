@@ -1,0 +1,17 @@
+{
+  "itemName" : "pat_heavyhat",
+  "shortdescription" : "A Hat",
+  "description" : "wear this",
+  "rarity" : "Legendary",
+  "category" : "headwear",
+  "tooltipKind" : "armor",
+  "price" : 500,
+  "maxStack" : 1,
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : ["pat_heavyhatgive"]
+}
