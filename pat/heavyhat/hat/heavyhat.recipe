@@ -4,5 +4,5 @@
     { "item" : "essence", "count" : 1 }
   ],
   "output" : { "item" : "pat_heavyhat", "count" : 1 },
-  "groups" : [ "plain", "all" ]
+  "groups" : [ "craftingwheel", "clothes" ]
 }
