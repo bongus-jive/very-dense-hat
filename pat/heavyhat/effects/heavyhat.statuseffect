@@ -1,6 +1,6 @@
 {
-	"name" : "pat_heavyhat",
-	"effectConfig" : {},
-	"defaultDuration" : 1,
-	"scripts" : ["heavyhat.lua"]
+  "name" : "pat_heavyhat",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+  "scripts" : ["heavyhat.lua"]
 }

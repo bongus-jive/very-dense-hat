@@ -3,7 +3,7 @@
   "frameList" : {
     "normal" : [0, 0, 43, 43]
   },
-	"aliases" : {
-		"0" : "normal"
-	}
+  "aliases" : {
+    "0" : "normal"
+  }
 }

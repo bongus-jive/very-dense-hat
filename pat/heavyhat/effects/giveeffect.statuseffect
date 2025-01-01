@@ -1,5 +1,5 @@
 {
-	"name" : "pat_heavyhatgive",
-	"effectConfig" : {},
-	"scripts" : ["giveeffect.lua"]
+  "name": "pat_heavyhatgive",
+  "effectConfig": { },
+  "scripts": [ "giveeffect.lua" ]
 }

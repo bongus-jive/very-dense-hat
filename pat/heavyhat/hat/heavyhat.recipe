@@ -1,8 +1,8 @@
 {
-  "input" : [
-    { "item" : "fabric", "count" : 5 },
-    { "item" : "essence", "count" : 1 }
+  "input": [
+    { "item": "fabric", "count": 5 },
+    { "item": "essence", "count": 1 }
   ],
-  "output" : { "item" : "pat_heavyhat", "count" : 1 },
-  "groups" : [ "craftingwheel", "clothes" ]
+  "output": { "item": "pat_heavyhat", "count": 1 },
+  "groups": [ "craftingwheel", "clothes" ]
 }

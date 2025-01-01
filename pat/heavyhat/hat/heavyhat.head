@@ -1,17 +1,17 @@
 {
-  "itemName" : "pat_heavyhat",
-  "shortdescription" : "A Hat",
-  "description" : "i sure hope this hat doesnt become an incredibly rigid and dense object when i put it on my head",
-  "rarity" : "Legendary",
-  "category" : "headwear",
-  "tooltipKind" : "armor",
-  "price" : 500,
-  "maxStack" : 1,
+  "itemName": "pat_heavyhat",
+  "shortdescription": "A Hat",
+  "description": "i sure hope this hat doesnt become an incredibly rigid and dense object when i put it on my head",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "tooltipKind": "armor",
+  "price": 500,
+  "maxStack": 1,
 
-  "inventoryIcon" : "icon.png",
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "inventoryIcon": "icon.png",
+  "maleFrames": "head.png",
+  "femaleFrames": "head.png",
+  "mask": "mask.png",
 
-  "statusEffects" : ["pat_heavyhatgive"]
+  "statusEffects": [ "pat_heavyhatgive" ]
 }
