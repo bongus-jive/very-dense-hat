@@ -15,6 +15,6 @@
     "collisionEnabled": true,
     "stickyCollision": true,
     "stickyForce": 100,
-    "collisionPoly": [ [ 0.5, 1 ], [ 0.5, 1.25 ], [ -0.5, 1.25 ], [ -0.5, 1 ] ]
+    "collisionPoly": [ [ 0.5, 0.875 ], [ 0.5, 1.125 ], [ -0.5, 1.125 ], [ -0.5, 0.875 ] ]
   }
 }
