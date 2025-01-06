@@ -1,7 +1,6 @@
 {
   "input": [
-    { "item": "fabric", "count": 5 },
-    { "item": "essence", "count": 1 }
+    { "item": "fabric", "count": 5 }
   ],
   "output": { "item": "pat_heavyhat", "count": 1 },
   "groups": [ "craftingwheel", "clothes" ]
