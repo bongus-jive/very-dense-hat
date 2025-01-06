@@ -1,10 +1,11 @@
 {
-  "version" : "1.0.3",
   "author" : "pat man",
-  "tags" : "Miscellaneous|Armor and Clothes",
-  "description" : "adds a hat that becomes incredibly rigid and dense when you put it on your head\nit crushes and kills you instantly\n\nmake at spinning wheel;\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar",
-  "name" : "pat_heavyhat",
+  "description" : "adds a hat that becomes incredibly rigid and dense when you put it on your head\n\nmake at spinning wheel",
   "friendlyName" : "Dense hat",
+  "link" : "steam://url/CommunityFilePage/2777462010",
+  "name" : "pat_heavyhat",
   "steamContentId" : "2777462010",
-  "link" : "steam://url/CommunityFilePage/2777462010"
+  "steamDescription" : "adds a hat that becomes incredibly rigid and dense when you put it on your head\nit crushes and kills you instantly\n\nmake at spinning wheel;\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/very-dense-hat",
+  "tags" : "Miscellaneous|Armor and Clothes",
+  "version" : "1.1"
 }
