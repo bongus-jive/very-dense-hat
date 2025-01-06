@@ -1,5 +1,7 @@
 {
   "name": "pat_heavyhatgive",
-  "effectConfig": { },
+  "effectConfig": {
+    "delay": 0.4
+  },
   "scripts": [ "giveeffect.lua" ]
 }
