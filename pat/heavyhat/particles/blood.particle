@@ -2,21 +2,24 @@
   "kind": "pat_heavyhat_blood",
   "definition": {
     "type": "ember",
-    "size": 1.5,
-    "color": [ 200, 0, 0, 255 ],
+    "size": 1.75,
+    "color": [ 200, 0, 0 ],
     "position": [ 0, 0.625 ],
-    "initialVelocity": [ 0, -7.5 ],
-    "finalVelocity": [ 0, -25 ],
-    "approach": [ 10, 25 ],
-    "timeToLive": 0,
+    "initialVelocity": [ 0, -2 ],
+    "finalVelocity": [ 0, -100 ],
+    "approach": [ 10, 50 ],
+    "timeToLive": 1,
     "destructionTime": 10,
     "destructionAction": "shrink",
     "collidesForeground": true,
+    "rotate": true,
+    "trail": true,
     "layer": "middle",
     "variance": {
       "size": 0.75,
-      "initialVelocity": [ 100, 10 ],
-      "destructionTime": 5
+      "initialVelocity": [ 80, 10 ],
+      "destructionTime": 5,
+			"angularVelocity": 120
     }
   }
 }
