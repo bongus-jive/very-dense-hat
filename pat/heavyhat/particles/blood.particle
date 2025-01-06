@@ -1,0 +1,22 @@
+{
+  "kind": "pat_heavyhat_blood",
+  "definition": {
+    "type": "ember",
+    "size": 1.5,
+    "color": [ 200, 0, 0, 255 ],
+    "position": [ 0, 0.625 ],
+    "initialVelocity": [ 0, -7.5 ],
+    "finalVelocity": [ 0, -25 ],
+    "approach": [ 10, 25 ],
+    "timeToLive": 0,
+    "destructionTime": 10,
+    "destructionAction": "shrink",
+    "collidesForeground": true,
+    "layer": "middle",
+    "variance": {
+      "size": 0.75,
+      "initialVelocity": [ 100, 10 ],
+      "destructionTime": 5
+    }
+  }
+}

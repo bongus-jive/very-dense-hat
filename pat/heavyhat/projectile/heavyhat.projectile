@@ -32,53 +32,23 @@
     {
       "action": "loop",
       "count": 50,
-      "body": [ {
-        "action": "particle",
-        "specification": {
-          "type": "animated",
-          "animation": "/animations/dust2/dust2.animation",
-          "layer": "back",
-          "initialVelocity": [ 0, 0 ],
-          "finalVelocity": [ 0, 2 ],
-          "approach": [ 40, 20 ],
-          "timeToLive": 0.3,
-          "destructionTime": 0.85,
-          "destructionAction": "shrink",
-          "variance": {
-            "initialVelocity": [ 25, 0.5 ],
-            "finalVelocity": [ 0, 1 ],
-            "timeToLive": 0.2,
-            "destructionTime": 0.2
-          }
+      "body": [
+        {
+          "action": "particle",
+          "specification": "pat_heavyhat_dust"
         }
-      } ]
+      ]
     },
     {
       "action": "loop",
       "count": 150,
-      "body": [ {
-        "action": "particle",
-        "rotate": true,
-        "specification": {
-          "type": "ember",
-          "size": 1.5,
-          "color": [ 200, 0, 0, 255 ],
-          "position": [ 0, 0.625 ],
-          "initialVelocity": [ 0, -7.5 ],
-          "finalVelocity": [ 0, -25 ],
-          "approach": [ 10, 25 ],
-          "timeToLive": 0,
-          "destructionTime": 10,
-          "destructionAction": "shrink",
-          "collidesForeground": true,
-          "layer": "middle",
-          "variance": {
-            "size": 0.75,
-            "initialVelocity": [ 100, 10 ],
-            "destructionTime": 5
-          }
+      "body": [
+        {
+          "action": "particle",
+          "rotate": true,
+          "specification": "pat_heavyhat_blood"
         }
-      } ]
+      ]
     }
   ]
 }
