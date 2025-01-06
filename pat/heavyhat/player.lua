@@ -1,24 +1,29 @@
-function init()
-	script.setUpdateDelta(12)
-	
-	message.setHandler("pat_heavyhatremove", function(_,isLocal)
-		if isLocal then
-			local head = player.equippedItem("head")
-			if head and head.name == "pat_heavyhat" then
-				player.setEquippedItem("head")
-			end
-			
-			local headCos = player.equippedItem("headCosmetic")
-			if headCos and headCos.name == "pat_heavyhat" then
-				player.setEquippedItem("headCosmetic")
-			end
-		end
-	end)
+local function isHatEquipped(slot)
+  local item = player.equippedItem(slot)
+  return item and item.name == "pat_heavyhat"
 end
 
-function update()
-	local headCos = player.equippedItem("headCosmetic")
-	if headCos and headCos.name == "pat_heavyhat" then
-		status.addEphemeralEffect("pat_heavyhat")
-	end
+local function removeHatHandler(_, localMsg)
+  if not localMsg then return end
+
+  if isHatEquipped("head") then
+    player.setEquippedItem("head", nil)
+    return true
+  end
+
+  if isHatEquipped("headCosmetic") then
+    player.setEquippedItem("headCosmetic", nil)
+    return true
+  end
+end
+
+function init()
+  script.setUpdateDelta(15)
+  message.setHandler("pat_heavyhatremove", removeHatHandler)
+end
+
+function update(dt)
+  if isHatEquipped("headCosmetic") then
+    status.addEphemeralEffect("pat_heavyhatgive", dt * 2)
+  end
 end

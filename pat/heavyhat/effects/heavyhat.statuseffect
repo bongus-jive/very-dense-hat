@@ -1,6 +1,9 @@
 {
-  "name" : "pat_heavyhat",
-  "effectConfig" : {},
-  "defaultDuration" : 1,
-  "scripts" : ["heavyhat.lua"]
+  "name": "pat_heavyhat",
+  "effectConfig": {
+    "offset": [ 0.125, -0.0625 ],
+    "killModifier": [ { "stat": "maxHealth", "effectiveMultiplier": 0 } ]
+  },
+  "defaultDuration": 1,
+  "scripts": [ "heavyhat.lua" ]
 }
