@@ -31,6 +31,13 @@
     },
     {
       "action": "loop",
+      "count": 8,
+      "body": [
+        { "action": "spark" }
+      ]
+    },
+    {
+      "action": "loop",
       "count": 50,
       "body": [
         {
