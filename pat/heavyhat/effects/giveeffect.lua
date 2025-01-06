@@ -1,5 +1,5 @@
 function init()
-  self.timer = 0.4
+  self.timer = config.getParameter("delay")
 end
 
 function update(dt)
