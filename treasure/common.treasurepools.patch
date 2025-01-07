@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/tool/0/1/pool/-",
+    "value": { "weight": 0.015, "item": "pat_heavyhat" }
+  }
+]
